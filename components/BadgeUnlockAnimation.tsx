@@ -107,7 +107,7 @@ export default function BadgeUnlockAnimation({ badge, visible, onComplete }: Bad
               useNativeDriver: true,
             }),
           ]),
-          { iterations: 2 }
+          { iterations: 1 }
         ),
         // Hold for reading
         Animated.delay(2000),
